@@ -1,11 +1,7 @@
-const express = require("express")
-const {
-    getAttendance,
-    getSingleAttendance,
-    createAttendance,
-    deleteAttendance,
-    updateAttendance
-} = require("../controllers/attendanceController")
+import  express  from 'express'
+
+import {getAttendance, getSingleAttendance, createAttendance, deleteAttendance, updateAttendance} from '../controllers/attendanceController'
+
 const router = express.Router()
 
 // get attendance

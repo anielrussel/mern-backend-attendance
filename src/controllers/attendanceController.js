@@ -1,6 +1,6 @@
-const Attendance = require("../models/attendanceModel")
+import Attendance from '../models/attendanceModel'
 
-const mongoose = require("mongoose")
+import mongoose from "mongoose"
 
 // get all attendance
 const getAttendance = async (req, res) => {

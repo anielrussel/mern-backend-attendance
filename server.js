@@ -1,7 +1,10 @@
 require("dotenv").config()
-const attendanceRoutes = require("./routes/attendanceRoutes")
-const mongoose = require("mongoose")
-const express = require("express")
+
+import attendanceRoutes from './src/routes/attendanceRoutes'
+
+import mongoose from 'mongoose'
+
+import express from 'express'
 
 // express app
 const app = express()
